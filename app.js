@@ -8,7 +8,7 @@ root.print();
 
 await serve(name => root.find(name)?.record, {
 	log: true,
-	port: parseInt(process.env.PORT) | 0,
+	port: parseInt(process.env.PORT || 0),
 	protocol: process.env.PROTOCOL,
 	signingKey: process.env.PRIVATE_KEY
 });
