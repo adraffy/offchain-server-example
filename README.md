@@ -6,4 +6,5 @@
 
 1. `npm i`
 1. edit [`db.json`](./db.json)
-1. `node app.js`
+1. edit [`.env`](./env)
+1. `npm run start`

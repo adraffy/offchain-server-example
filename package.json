@@ -1,5 +1,8 @@
 {
 	"type": "module",
+	"scripts": {
+		"start": "node --env-file=.env app.js"
+	},
 	"dependencies": {
 		"@resolverworks/enson": "^0.0.11",
 		"@resolverworks/ezccip": "^0.0.11"
